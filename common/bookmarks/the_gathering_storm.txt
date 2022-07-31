@@ -1,0 +1,106 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1888.6.1.12
+		picture = "GFX_select_date_1888"
+		default_country = "ENG"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				undisturbed_isolation
+				USA_the_senate
+				USA_the_congress
+				USA_corporate_corruption
+			}
+			focuses = {
+				USA_the_senate
+				USA_the_congress
+				USA_corporate_corruption
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"AUH"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				GER_hohenzollern
+				GER_prussian_youth
+				GER_berlin_slums
+			}
+			focuses = {
+				
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = monarchist
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}	
+			focuses = {
+				
+			}	
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = monarchist
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}	
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = nationalist
+			ideas = {
+				RUS_the_soviet_threat
+				RUS_kornilov_affair
+				RUS_scars_of_tsushima
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

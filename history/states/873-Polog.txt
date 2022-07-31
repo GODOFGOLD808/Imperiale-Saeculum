@@ -1,0 +1,25 @@
+state={
+	id=873
+	name="STATE_873"
+	
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = OTT
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = MAC
+
+	}
+	
+	provinces={
+		833 867 11856 
+	}
+	manpower=322338
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

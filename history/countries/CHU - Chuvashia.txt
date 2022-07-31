@@ -1,0 +1,29 @@
+﻿capital = 256 #Cheboksary
+
+#oob = "CHU_1888"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 0
+	monarchist = 10
+	conservative = 50
+	centrist = 0
+	liberal = 10
+	socialist = 15
+	marxist = 15
+}
+
+recruit_character = CHU_gerasim_ivanov

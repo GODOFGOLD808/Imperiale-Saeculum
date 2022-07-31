@@ -1,0 +1,52 @@
+characters = {
+	RUS_alexander_iii = {
+		name = RUS_alexander_iii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Russia_Aleksandr_III.dds"
+			}
+		}
+		country_leader = {
+			ideology=tsar
+			traits = {
+				peacemaker
+			}
+			expire = "1894.11.1.1"
+			id = -1
+		}
+	}
+	
+	RUS_alexandra_kollontai = {	#Social-Democrat, not as threatening
+		name = RUS_alexandra_kollontai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Russia_Alexandra_Kollontai.dds"
+			}
+		}
+		country_leader = {
+			ideology=socialism
+			traits = {
+				
+			}
+			expire = "1952.3.9.1"
+			id = -1
+		}
+	}
+	
+	RUS_georgi_valentinovich_plekhanov = {	#Rules under SOV once coup or Civil War succeeds
+		name = RUS_georgi_valentinovich_plekhanov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Russia_Georgi_Valentinovich_Plekhanov.dds"
+			}
+		}
+		country_leader = {
+			ideology=socialism
+			traits = {
+				father_of_russian_communism
+			}
+			expire = "1918.5.30.1"
+			id = -1
+		}
+	}
+}

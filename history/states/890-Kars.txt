@@ -1,0 +1,28 @@
+state={
+	id=890
+	name="STATE_890"
+	
+	history={
+		owner = RUS
+		victory_points = {
+			10472 2 	#Kars
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = TUR
+		add_core_of = OTT
+
+	}
+	
+	provinces={
+		7454 10403 10472 13245 13246 13247 13248 
+	}
+	manpower=73836
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

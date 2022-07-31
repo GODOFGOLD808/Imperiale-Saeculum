@@ -1,0 +1,38 @@
+﻿capital = 656
+
+#oob = "KUW_1888"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+recruit_character = KUW_???
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1888.1.1"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 4
+	monarchist = 91
+	conservative = 3
+	centrist = 1
+	liberal = 1
+	socialist = 0
+	marxist = 0
+}
+
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	ideology = monarchism
+#	traits = {
+#		#
+#	}
+#}

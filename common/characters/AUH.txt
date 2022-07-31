@@ -1,0 +1,29 @@
+characters={
+	AUH_franz_joseph_i={
+		name=AUH_franz_joseph_i
+		portraits={
+			civilian={
+				large="gfx/leaders/AUH/Portrait_AUH_Franz_Joseph_I.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1916.11.21.1"	#Death date
+			id=-1
+		}
+	}
+	
+	AUH_carl_i={	#Successor
+		name=AUH_carl_i
+		portraits={
+			civilian={
+				large="gfx/leaders/AUH/Portrait_AUH_Carl_I.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="1922.4.1.1"	#Death date
+			id=-1
+		}
+	}
+}

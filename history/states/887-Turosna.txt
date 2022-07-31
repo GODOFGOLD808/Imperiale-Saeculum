@@ -1,0 +1,24 @@
+
+state={
+	id=887
+	name="STATE_887"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		315 343 371 398 3364 3390 11229 11298 11325 
+	}
+	manpower=62510
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=5.000
+}

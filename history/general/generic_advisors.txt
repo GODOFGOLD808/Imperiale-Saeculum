@@ -1,0 +1,235 @@
+# For minor countries where advisors are not defined
+# Generate them from a generic template
+
+### Political advisors
+every_possible_country = {	#Fundamentalist Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = fundamental_radical characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_fundamental_radical # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { fundamental_radical }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_fundamental_radical }
+		}
+	}
+}
+
+every_possible_country = {	#National Populist Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = traditional_rightist characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_traditional_rightist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { traditional_rightist }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_traditional_rightist }
+		}
+	}
+}
+
+every_possible_country = {	#Authoritarian Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = autocratic_advocate characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_autocratic_advocate # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { autocratic_advocate }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_autocratic_advocate }
+		}
+	}
+}
+
+every_possible_country = {	#Conservative Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = republican_conventionalist characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_republican_conventionalist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { republican_conventionalist }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_republican_conventionalist }
+		}
+	}
+}
+
+every_possible_country = {	#Centrist Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = moderate_centralist characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_moderate_centralist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { moderate_centralist }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_moderate_centralist }
+		}
+	}
+}
+
+every_possible_country = {	#Liberal Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = democratic_progressive characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_democratic_progressive # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { democratic_progressive }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_progressive }
+		}
+	}
+}
+
+every_possible_country = {	#Socialist Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = social_syndicalist characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_social_syndicalist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { social_syndicalist }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_social_syndicalist }
+		}
+	}
+}
+
+every_possible_country = {	#Communist Advisor
+	limit = {
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = marxist_revolutionary characters = yes }
+		}
+	}
+	available = {
+		is_ai = no
+	}
+	generate_character = {
+		token_base = generic_marxist_revolutionary # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { marxist_revolutionary }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_marxist_revolutionary }
+		}
+	}
+}

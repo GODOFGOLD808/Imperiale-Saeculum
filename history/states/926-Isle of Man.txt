@@ -1,0 +1,27 @@
+state={
+	id=926
+	name="STATE_926"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			3311 1 
+		}
+		buildings = {
+			infrastructure = 3
+			3311 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
+
+	}
+	
+	provinces={
+		3311 
+	}
+	manpower=85032
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=town
+}

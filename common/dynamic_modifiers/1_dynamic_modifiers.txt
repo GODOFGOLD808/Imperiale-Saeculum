@@ -1,0 +1,38 @@
+# Imperiale Saeculum Generic State Modifiers
+
+peasant_riots = {	#Stage-1 Unrest
+	remove_trigger = { 
+		has_resistance = yes
+	}
+	
+	icon = GFX_modifiers_peasant_riots
+	
+	production_speed_buildings_factor = -0.1
+	compliance_growth_on_our_occupied_states = -0.1
+}
+
+peasant_army = {	#Stage-2 Unrest
+	remove_trigger = { 
+		has_resistance = yes
+	}
+	
+	icon = GFX_modifiers_peasant_army
+	
+	monthly_population = -0.1
+	production_speed_buildings_factor = -0.2
+	compliance_growth_on_our_occupied_states = -0.25
+}
+
+peasant_revolt = {	#Stage-3 Unrest
+	remove_trigger = { 
+		has_resistance = yes
+	}
+	
+	icon = GFX_modifiers_peasant_revolt
+	
+	monthly_population = -0.3
+	no_compliance_gain = 1
+	production_speed_buildings_factor = -0.1
+	compliance_growth_on_our_occupied_states = -0.5
+}
+

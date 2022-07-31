@@ -1,0 +1,61 @@
+﻿capital = 608 # Beijing/Peking
+
+oob = "CHI_1888"
+set_naval_oob = "CHI_1888_naval_mtg"
+set_naval_oob = "CHI_1888_naval_legacy"
+
+recruit_character = CHI_guangxu_emperor
+#recruit_character = CHI_xuantong_emperor
+
+set_stability = 0.2
+set_war_support = 0.5
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+set_technology = {
+	basic_naval_mines = 1
+	early_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	basic_battery = 1
+	basic_secondary_battery = 1
+	basic_torpedo = 1
+	coastal_defense_ships = 1
+}
+
+set_autonomy = {
+	target = TIB
+	autonomous_state = autonomy_puppet
+}
+
+add_ideas = {
+	free_trade
+}
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 2
+	monarchist = 73
+	conservative = 10
+	centrist = 10
+	liberal = 5
+	socialist = 0
+	marxist = 0
+}
+
+### VARIANTS ###
+# 1888 Start #

@@ -1,0 +1,23 @@
+state={
+	id=924
+	name="STATE_924"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ENG
+		add_core_of = SCO
+
+	}
+	
+	provinces={
+		284 3373 
+	}
+	manpower=86260
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

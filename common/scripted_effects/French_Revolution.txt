@@ -1,0 +1,29 @@
+FRA_french_revolution = {
+	add_political_power = -50
+	
+	else_if = {
+		limit = {
+			has_dynamic_modifier = {
+				modifier = MEX_peasant_riots
+				scope = FRA
+			}
+			add_dynamic_modifier = {
+				modifier = MEX_peasant_army
+			}
+		}
+	}
+	
+	else_if = {
+		limit = {
+			has_dynamic_modifier = {
+				modifier = MEX_peasant_army
+				scope = FRA
+			}
+			add_dynamic_modifier = {
+				modifier = MEX_peasant_revolt
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,27 @@
+state={
+	id=920
+	name="STATE_920"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			7394 3 		#Galway
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = IRE
+
+	}
+	
+	provinces={
+		3396 6313 9303 9369 11287 11334 
+	}
+	manpower=258058
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=pastoral
+}

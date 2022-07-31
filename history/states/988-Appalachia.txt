@@ -1,0 +1,26 @@
+
+state={
+	id=988
+	name="STATE_988"
+
+	history={
+		owner = USA
+		victory_points = {
+			10352 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		968 1506 5090 7466 7558 7643 7791 8014 9967 10439 10468 10909 
+	}
+	manpower=1888
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=3.000
+}

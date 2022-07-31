@@ -1,0 +1,36 @@
+state={
+	id=860
+	name="STATE_860"
+	
+	history={
+		owner = AUH
+		victory_points = {
+			3924 2 		#Split
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			3924 = {
+				naval_base = 3
+
+			}
+			6889 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = AUH
+		add_core_of = YUG
+		add_core_of = CRO
+
+	}
+	
+	provinces={
+		3868 3924 3974 6889 11816 
+	}
+	manpower=178102
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

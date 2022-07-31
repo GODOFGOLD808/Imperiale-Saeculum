@@ -1,0 +1,26 @@
+state={
+	id=901
+	name="STATE_901"
+	
+	history={
+		owner = PER
+		victory_points = {
+			7604 2 		#Mashhad
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = PER
+
+	}
+	
+	provinces={
+		1888 2000 5029 10806 
+	}
+	manpower=3001184
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=pastoral
+}

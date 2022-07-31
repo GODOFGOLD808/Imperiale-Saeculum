@@ -1,0 +1,37 @@
+spriteTypes = {
+	
+	### Coronation Events ###
+	
+	spriteType = {
+		name = "GFX_report_event_robert_i_coronation"
+		texturefile = "gfx/event_pictures/report_event_robert_i_coronation.dds"
+	}
+	
+	### Succession Events ###
+	
+	spriteType = {
+		name = "GFX_report_event_"
+		texturefile = "gfx/event_pictures/report_event_.dds"
+	}
+	
+	### Civil War Events ###
+	
+	spriteType = {
+		name = "GFX_report_event_robert_i_coronated"
+		texturefile = "gfx/event_pictures/report_event_robert_i_coronated.dds"
+	}
+	
+	### Death Events ###
+	
+	spriteType = {
+		name = "GFX_report_event_robert_i_coronated"
+		texturefile = "gfx/event_pictures/report_event_robert_i_coronated.dds"
+	}
+	
+	### Blizzard Events ###
+	
+	spriteType = {
+		name = "GFX_report_event_robert_i_coronated"
+		texturefile = "gfx/event_pictures/report_event_robert_i_coronated.dds"
+	}
+}

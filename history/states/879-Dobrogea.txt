@@ -1,0 +1,32 @@
+state={
+	id=879
+	name="STATE_879"
+	
+	history={
+		owner = ROM
+		victory_points = {
+			657 2 		#Constanta
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			657 = {
+				naval_base = 8
+			}
+			687 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = ROM
+
+	}
+	
+	provinces={
+		657 687 3076 9635 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=rural
+}

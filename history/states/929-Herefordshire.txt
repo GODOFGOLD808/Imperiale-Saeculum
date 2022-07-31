@@ -1,0 +1,25 @@
+state={
+	id=929
+	name="STATE_929"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			3241 2 		#Hereford
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ENG
+
+	}
+	
+	provinces={
+		3241 6301 6378 
+	}
+	manpower=192801
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

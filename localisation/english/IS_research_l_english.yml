@@ -1,0 +1,50 @@
+﻿l_english:
+ #####Imperiale Saeculum Research#####
+ 
+ #Infantry
+ infantry_equipment:0 "Musket"
+ infantry_equipment_1:0 "Needle Gun"
+ infantry_equipment_2:0 "Bolt Action"
+ infantry_equipment_3:0 "Semi-Auto"
+ 
+ #Trains
+ 
+ 
+ 
+ 
+ #Motorized
+ 
+ 
+ 
+ 
+ #Support
+ 
+ 
+ 
+ 
+ #Armor
+ 
+ 
+ 
+ 
+ #Artillery
+ 
+ 
+ 
+ 
+ #Electronics
+ electricity:0 "Electricity"
+ steam_engine:0 "Steam Engine"
+ alternating_current_motor:0 "Alternating Current Motor"
+ tesla_coil:0 "Tesla Coil"
+ diesel_engine:0 "Diesel Engine"
+ nickel_cadmium_battery:0 "Nickel Cadmium Battery"
+ gas_turbine:0 "Gas Turbine"
+ diode:0 "Diode"
+ typewriter:0 "Typewriter"
+ telephone:0 "Telephone"
+ radio_tech:0 "Radio Tech"
+ radio_detection_finding:0 "Radio Detection Finding"
+ basic_research_lab:0 "Basic Research Lab"
+ thermostat:0 "Thermostat"
+ 

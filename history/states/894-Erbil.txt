@@ -1,0 +1,28 @@
+state={
+	id=894
+	name="STATE_894"
+	
+	history={
+		owner = OTT
+		victory_points = {
+			3916 2 		#Erbil
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = OTT
+		add_core_of = IRQ
+		add_core_of = OTT
+
+	}
+	
+	provinces={
+		3916 5014 6826 8123 10793 10811 
+	}
+	manpower=2100000
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

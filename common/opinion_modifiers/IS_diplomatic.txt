@@ -1,0 +1,45 @@
+###New Opinion Modifiers###
+opinion_modifiers = {
+	
+	alliance_of_1756 = {
+		value = 100 #Alliance without faction
+		months = -1
+		decay = 0
+	}
+	
+	freed_my_territory = {
+		value = 50
+		months = 24
+		decay = 1
+	}
+	
+	intense_rivalry = {
+		value = -50 #Rivals
+		months = -1
+		decay = 0
+	}
+	
+	intense_hatred = {
+		value = -100 #Sworn enemies
+		months = -1
+		decay = 0
+	}
+	
+	loves_us = {
+		value = 50
+		months = -1
+		decay = 0
+	}
+	
+	passionate = {
+		value = 100
+		months = -1
+		decay = 0
+	}
+	
+	acknowledged_claims = {
+		value = 50
+		months = 12
+		decay = 1
+	}
+}

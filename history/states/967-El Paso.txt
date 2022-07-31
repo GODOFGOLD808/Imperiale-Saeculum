@@ -1,0 +1,24 @@
+state={
+	id=967
+	name="STATE_967"
+	
+	history={
+		owner = MEX
+		victory_points = {
+			10740 3 		#El Paso
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MEX
+
+	}
+	
+	provinces={
+		1954 5038 10740 10894 
+	}
+	manpower=679813
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

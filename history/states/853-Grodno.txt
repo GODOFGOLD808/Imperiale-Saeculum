@@ -1,0 +1,25 @@
+state={
+	id=853
+	name="STATE_853"
+	
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = POL
+
+	}
+	
+	provinces={
+		318 3393 13206 
+	}
+	manpower=368710
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

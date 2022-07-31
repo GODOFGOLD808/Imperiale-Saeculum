@@ -1,0 +1,27 @@
+state={
+	id=1003
+	name="STATE_1003"
+	
+	history={
+		owner = OTT
+		victory_points = {
+			1578 1 	#Al Hasakah
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OTT
+		add_core_of = SYR
+		add_core_of = KUR
+
+	}
+	
+	provinces={
+		1549 1578 10882 
+	}
+	manpower=409000
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

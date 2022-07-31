@@ -1,0 +1,26 @@
+
+state={
+	id=968
+	name="STATE_968"
+
+	history={
+		owner = MEX
+		victory_points = {
+			9083 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		1927 2019 2042 4884 5061 6785 6798 6987 12369 12728 12782 
+	}
+	manpower=198955
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=3.000
+}

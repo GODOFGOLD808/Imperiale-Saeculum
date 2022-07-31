@@ -1,0 +1,33 @@
+state={
+	id=996
+	name="STATE_996"
+	
+	history={
+		owner = CAN
+		victory_points = {
+			10352 10 		#Montreal
+		}
+		victory_points = {
+			12149 5 		#Quebec City
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			12149 = {
+				naval_base = 6
+
+			}
+		}
+		add_core_of = CAN
+
+	}
+	
+	provinces={
+		1341 1356 4345 4419 7291 7435 9601 10700 12149 12223 13160 
+	}
+	manpower=271352
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=large_town
+}

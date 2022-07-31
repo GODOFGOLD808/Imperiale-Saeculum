@@ -1,0 +1,533 @@
+technologies = {
+	electricity = {
+
+		# small boost to research speed
+		research_speed_factor = 0.03
+		
+		
+		path = {
+			leads_to_tech = steam_engine 
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = { 
+			ship_fire_control_system_0
+		}
+		
+		research_cost = 1
+		start_year = 1882
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1889.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	steam_engine = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		
+		path = {
+			leads_to_tech = alternating_current_motor 
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1884
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1889.6.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	alternating_current_motor = {
+
+		# small boost to research speed
+		research_speed_factor = 0.04
+		
+		
+		path = {
+			leads_to_tech = tesla_coil 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1888
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1890.0.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	tesla_coil = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		
+		path = {
+			leads_to_tech = diesel_engine 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1891
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1893.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	diesel_engine = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		
+		path = {
+			leads_to_tech = nickel_cadmium_battery 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1893
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1895.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	nickel_cadmium_battery = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		
+		path = {
+			leads_to_tech = gas_turbine 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1899
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1901.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	gas_turbine = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		
+		path = {
+			leads_to_tech = diode 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1903
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1905.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	diode = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		research_cost = 1
+		start_year = 1904
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1906.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	
+
+	######
+
+	typewriter = {
+
+		
+		
+		
+		path = {
+			leads_to_tech = telephone 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1867
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1888.6.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	telephone = {
+
+		
+		
+		
+		path = {
+			leads_to_tech = early_radio 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1882
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1889.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	early_radio = {
+
+		# units with radios can more efficiently join combats when there is room
+		land_reinforce_rate = 0.05
+		coordination_bonus = 0.03
+		
+		path = {
+			leads_to_tech = radio_direction_finding 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.75
+		start_year = 1896
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 9 } # x = 12 y = 0
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 6
+				has_war = yes
+			}
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				factor = 5
+				date > "1899.8.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	radio_direction_finding = {
+
+		
+		coordination_bonus = 0.05
+		
+		start_year = 1902
+		research_cost = 1.25
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				factor = 5
+				date > "1905.0.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	basic_research_lab = {
+
+		
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = thermostat 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1867
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1888.6.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	thermostat = {
+
+		
+		research_speed_factor = 0.03
+		
+		path = {
+			leads_to_tech = improved_lab 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1883
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1890.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	improved_lab = {
+
+		
+		research_speed_factor = 0.03
+		
+		path = {
+			leads_to_tech = advanced_lab 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1890
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1893.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	advanced_lab = {
+
+		
+		research_speed_factor = 0.03
+		
+		research_cost = 1
+		start_year = 1894
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1896.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+}

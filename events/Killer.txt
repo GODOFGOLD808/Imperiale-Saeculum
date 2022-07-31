@@ -1,0 +1,84 @@
+﻿add_namespace = killer 
+
+# A Mysterious Killer
+country_event = {
+	id = killer.1
+	title = killer.1.title
+	desc = killer.1.desc
+	picture = GFX_report_event_mysterious_killer
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = killer.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = -100
+	}
+	
+	option = {
+		name = killer.1.b
+		ai_chance = { factor = 90 }
+		ENG = {
+			country_event = { days = 1 id = killer.2 }
+		}
+	}
+}
+
+# White Chapel Murders
+country_event = {
+	id = killer.2
+	title = killer.2.title
+	desc = killer.2.desc
+	picture = GFX_report_event_white_chapel_murders
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		date < 1888.9.1
+		date > 1888.10.31
+		AND = {
+			tag = ENG
+			has_idea = indian_independence_promised_idea
+		}
+	}
+	
+	option = {
+		name = killer.2.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		stability_factor = -0.1
+		local_manpower = -0.10
+	}
+}
+
+# Jack the Ripper Unfound
+country_event = {
+	id = killer.3
+	title = killer.3.title
+	desc = killer.3.desc
+	picture = GFX_report_event_investigation_failed
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = killer.3.a
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+	}
+}
+
+# Jack the Ripper Found
+country_event = {
+	id = killer.4
+	title = killer.4.title
+	desc = killer.4.desc
+	picture = GFX_report_event_investigation_succeeded
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = killer.4.a
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+	}
+}

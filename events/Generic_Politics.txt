@@ -1,0 +1,89 @@
+### Generic Political Events ###
+
+add_namespace = generic_politics
+
+# Republican Election
+country_event = {	#Liberal/Conservative
+	id = generic_politics.1
+	title = generic_politics.1.title
+	desc = generic_politics.1.desc
+	picture = GFX_report_event_republican_election
+	
+	trigger = {
+		has_elections = yes
+		IF = {
+			limit = {
+				has_government = conservative
+			}
+		}
+		IF = {
+			limit = {
+				has_government = liberal
+			}
+		}
+		IF = {
+			limit = {
+				has_government = centrist
+				has_elections = yes
+			}
+		}
+		IF = {
+			NOT = {
+				has_government = centrist
+				has_elections = no
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {	#Conservative
+		name = generic_politics.1.a
+		ai_chance = { factor = 50 }
+		add_political_power = 50
+		set_politics = {
+			ruling_party = ROOT
+			elections_allowed = yes
+			last_election = "ROOT"
+			election_frequency = 0
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = conservative
+				popularity = 10
+			}
+		}
+		IF = {
+			limit = {
+				has_government = conservative
+			}
+			country_event = generic_politics.2	#Conservative Victory
+		}
+	}
+	
+	option = {	#Liberal
+		name = generic_politics.1.b
+		ai_chance = { factor = 50 }
+		add_political_power = 50
+		set_politics = {
+			ruling_party = ROOT
+			elections_allowed = yes
+			last_election = "ROOT"
+			election_frequency = 0
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = ROOT
+				popularity = 10
+			}
+		}
+		IF = {
+			limit = {
+				has_government = liberal
+			}
+			country_event = generic_politics.3	#Liberal Victory
+		}
+	}
+}

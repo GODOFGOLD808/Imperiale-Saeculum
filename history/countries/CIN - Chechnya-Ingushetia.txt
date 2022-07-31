@@ -1,0 +1,30 @@
+﻿capital = 821 #Grozny
+
+#oob = "CIN_1888"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 25
+	monarchist = 10
+	conservative = 40
+	centrist = 0
+	liberal = 10
+	socialist = 8
+	marxist = 17
+}
+
+recruit_character = CIN_hasan_israilov
+recruit_character = CIN_yusup_tambiev

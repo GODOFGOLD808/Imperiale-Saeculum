@@ -1,0 +1,24 @@
+state={
+	id=973
+	name="STATE_973"
+	
+	history={
+		owner = USA
+		victory_points = {
+			11830 2 		#Providence
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		11830 
+	}
+	manpower=1098163
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=pastoral
+}

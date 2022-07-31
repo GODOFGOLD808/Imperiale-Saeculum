@@ -1,0 +1,395 @@
+﻿add_namespace = is_britain
+
+# Robert I Coronation
+country_event = {
+	id = is_britain.1
+	title = is_britain.1.title
+	desc = is_britain.1.desc
+	picture = GFX_report_event_robert_i_coronation
+	
+	trigger = {
+		ENG = {
+			has_completed_focus = ENG_the_grand_coronation
+			has_country_leader = {
+				name = "Prince Robert of Wales"
+				ruling_only = yes
+			}
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = is_britain.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		ENG_robert_i = {
+			add_country_leader_role = {
+				country_leader = {
+					name = "Robert I"
+					ideology = constitutional_monarchist
+					traits = {
+						inexperienced_imperialist
+					}
+				}
+				promote_leader = yes
+			}
+		}
+		hidden_effect = {
+			set_character_name = {
+				character = ENG_robert_stuart_wittelsbach
+				name = ENG_robert_i
+			}
+			IF = {
+				
+			}
+		}
+	}
+}
+
+# Magna Carta Repealed
+country_event = {
+	id = is_britain.2
+	title = is_britain.2.title
+	desc = is_britain.2.desc
+	picture = GFX_report_event_magna_carta_repealed
+	
+	trigger = {
+		has_completed_focus = ENG_repeal_the_magna_carta
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = is_britain.2.a
+		ai_chance = { factor = 100 }
+		add_political_power = 100 
+		hidden_effect = {
+			add_ideas = ENG_organized_command
+		}
+	}
+}
+
+# The King Holds On
+country_event = {
+	id = is_britain.3
+	title = is_britain.3.title
+	desc = is_britain.3.desc
+	picture = GFX_report_event_king_holds_on
+	
+	trigger = {
+		has_completed_focus = ENG_the_king_holds_on
+		has_country_leader = {
+				name = "Robert I"
+				ruling_only = yes
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = is_britain.3.a
+		ai_chance = { factor = 100 }
+		add_political_power = 200
+		add_trait = {
+			character = ENG_robert_i
+			slot = political_advisor
+			trait = strong_leader
+		}
+		hidden_effect = {
+			remove_trait = {
+				character = ENG_robert_i
+				slot = political_advisor
+				trait = inexperienced_imperialist
+			}
+			add_trait = {
+				character = ENG_robert_i
+				slot = political_advisor
+				trait = strong_leader
+			}
+		}
+	}
+}
+
+# The Magna Carta Enforced
+country_event = {
+	id = is_britain.4
+	title = is_britain.4.title
+	desc = is_britain.4.desc
+	picture = GFX_report_event_robert_i_coronation
+	
+	trigger = {
+		ENG = {
+			has_completed_focus = ENG_enforce_the_magna_carta
+			has_country_leader = {
+				name = "Robert I"
+				ruling_only = yes
+			}
+		} 
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {	#Very Well
+		name = is_britain.4.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		hidden_effect = {
+			add_ideas = ENG_magna_carta_enforced
+		}
+	}
+}
+
+# The Deposition of the King
+country_event = {
+	id = is_britain.5
+	title = is_britain.5.title
+	desc = is_britain.5.desc
+	picture = GFX_report_event_robert_dethroned
+	
+	trigger = {
+		ENG = {
+			has_completed_focus = ENG_depose_prince_robert
+			has_country_leader = {
+				name = "Robert I"
+				ruling_only = yes
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = is_britain.5.a
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+		set_character_name = {
+			character = ENG_robert_i
+			name = ENG_robert_stuart_wittelsbach
+		}
+		hidden_effect = {
+			IF = {
+				has_idea = ENG_magna_carta_repealed
+			}
+			swap_ideas = {
+				remove_idea = ENG_magna_carta_repealed
+				add_idea = ENG_magna_carta_enforced
+			}
+		}
+	}
+}
+
+# Democracy Prevails
+country_event = {
+	id = is_britain.6
+	title = is_britain.6.title
+	desc = is_britain.6.desc
+	picture = GFX_report_event_robert_dethroned
+	
+	trigger = {
+		ENG = {
+			has_completed_focus = ENG_democracy_prevails
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	immediate = {
+		add_popularity = {
+			ideology = conservative
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = socialist
+			popularity = 0.1
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = is_britain.6.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		hidden_effect = {
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.1
+			}
+		}
+		IF = {
+			
+		}
+	}
+	
+	option = {
+		name = is_britain.6.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		hidden_effect = {
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.1
+			}
+		}
+		IF = {
+			
+		}
+	}
+	
+	option = {
+		name = is_britain.6.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		hidden_effect = {
+			add_popularity = {
+				ideology = socialist
+				popularity = 0.1
+			}
+		}
+		IF = {
+			
+		}
+	}
+}
+
+# Loyalists in the Colonies
+country_event = {
+	id = is_britain.6
+	title = is_britain.6.title
+	desc = is_britain.6.desc
+	picture = GFX_report_event_loyalists_in_the_colonies
+	
+	trigger = {
+		
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {	#Time to Crackdown!
+		name = is_britain.6.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_ideas = ENG_managed_colonials
+		hidden_effect = {
+			add_stability = -0.1
+		}
+	}
+	
+	option = {	#Let their government's be
+		name = is_britain.6.a
+		ai_chance = { factor = 100 }
+		add_political_power = 25
+		hidden_effect = {
+			add_stability = 0.1
+		}
+	}
+}
+
+# Inviting a New Royal
+country_event = {
+	id = is_britain.7
+	title = is_britain.7.title
+	desc = is_britain.7.desc
+	picture = GFX_report_event_loyalists_in_the_colonies
+	
+	trigger = {
+		has_completed_focus = ENG_invite_a_crown_prince
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {	#Robert must go!
+		name = is_britain.7.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_ideas = ENG_new_prince_in_line
+		hidden_effect = {
+			add_stability = -0.1
+			add_trait = {
+				character = ENG_robert_i
+				trait = paranoid
+			}
+		}
+	}
+}
+
+# American Riots
+country_event = {
+	id = is_britain.8
+	title = is_britain.8.title
+	desc = is_britain.8.desc
+	picture = GFX_report_event_loyalists_in_the_colonies
+	
+	trigger = {
+		has_completed_focus = ENG_crackdown_in_america
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {	#Silence the Americans!
+		name = is_britain.8.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_ideas = ENG_new_prince_in_line
+		hidden_effect = {
+			USA = {
+				add_stability = -0.1
+				add_ideas = generic
+				370 = {		#Mississippi
+					remove_dynamic_modifier = { modifier = peasant_riots } 
+					add_dynamic_modifier = { modifier = peasant_army }
+				}
+				372 = {		#Arkansas
+					remove_dynamic_modifier = { modifier = peasant_riots } 
+					add_dynamic_modifier = { modifier = peasant_army }
+				}
+				388 = {		#Montana
+					remove_dynamic_modifier = { modifier = peasant_riots } 
+					add_dynamic_modifier = { modifier = peasant_army }
+				}
+				395 = {		#Illinois
+					remove_dynamic_modifier = { modifier = peasant_riots } 
+					add_dynamic_modifier = { modifier = peasant_army }
+				}
+				971 = {		#North Louisiana
+					remove_dynamic_modifier = { modifier = peasant_riots } 
+					add_dynamic_modifier = { modifier = peasant_army }
+				}
+			}
+		}
+	}
+}

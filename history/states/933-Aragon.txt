@@ -1,0 +1,26 @@
+state={
+	id=933
+	name="STATE_933"
+	
+	history={
+		owner = SPR
+		victory_points = {
+			9840 2 		#Huesca
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = SPR
+
+	}
+	
+	provinces={
+		790 915 6901 9813 9840 9842 11793 11821 11838 
+	}
+	manpower=1329391
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

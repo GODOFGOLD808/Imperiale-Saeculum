@@ -1,0 +1,39 @@
+﻿capital = 690
+
+#oob = "BAH_1888"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+set_popularities = {
+	nationalist = 0
+	monarchist = 15
+	conservative = 40
+	centrist = 20
+	liberal = 25
+	socialist = 0
+	marxist = 0
+}
+
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = authoritarianism
+#	traits = {
+#		#
+#	}
+#}

@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+	##### Imperiale Saeculum #####
+	
+	spriteType = {
+		name = "GFX_ENG_removing_cholera"
+		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_removing_cholera"
+		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_by_the_people"
+		texturefile = "gfx/interface/ideas/by_the_people.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_persuaded_industrialists"
+		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
+	}
+}

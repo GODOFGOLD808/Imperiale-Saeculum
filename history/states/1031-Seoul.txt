@@ -1,0 +1,26 @@
+state={
+	id=1031
+	name="STATE_1031"
+	
+	history={
+		owner = KOR
+		victory_points = {
+			4052 10 	#Seoul
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = KOR
+
+	}
+	
+	provinces={
+		1148 4004 7021 7125 9936 9981 10036 11958 12011 
+	}
+	manpower=710000
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+	state_category=large_town
+}

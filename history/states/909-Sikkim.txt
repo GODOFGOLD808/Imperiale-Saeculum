@@ -1,0 +1,26 @@
+state={
+	id=909
+	name="STATE_909"
+	
+	history={
+		owner = RAJ
+		victory_points = {
+			12338 3 		#Siliguri
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = RAJ
+
+	}
+	
+	provinces={
+		4435 12338 
+	}
+	manpower=619000
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

@@ -1,0 +1,27 @@
+﻿capital = 4
+
+oob = "BAV_1888"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 0.5
+	monarchist = 75.1
+	conservative = 10.4
+	centrist = 5.6
+	liberal = 1.4
+	socialist = 0
+	marxist = 7.0
+}
+
+set_stability = 0.50

@@ -1,0 +1,25 @@
+state={
+	id=999
+	name="STATE_999"
+	
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 2
+			12702 = {
+				naval_base = 6
+
+			}
+		}
+		add_core_of = SAU
+
+	}
+	
+	provinces={
+		1955 4932 10791 10850 12702 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=rural
+}

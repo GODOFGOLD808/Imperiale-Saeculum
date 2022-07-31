@@ -1,0 +1,26 @@
+state={
+	id=1026
+	name="STATE_1026"
+	
+	history={
+		owner = USA
+		victory_points = {
+			9786 1 	#Salisbury
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		3917 6892 6984 9758 9786 
+	}
+	manpower=510890
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+	state_category=rural
+}

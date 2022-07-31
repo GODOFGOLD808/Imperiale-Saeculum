@@ -1,0 +1,30 @@
+state={
+	id=964
+	name="STATE_964"
+	
+	history={
+		owner = MEX
+		victory_points = {
+			9671 10 		#El Presidio De San Francisco
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			9671 = {
+				naval_base = 4
+
+			}
+		}
+		add_core_of = MEX
+
+	}
+	
+	provinces={
+		3677 3678 9671 
+	}
+	manpower=298997
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=town
+}

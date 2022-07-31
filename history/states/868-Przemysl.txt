@@ -1,0 +1,26 @@
+state={
+	id=868
+	name="STATE_868"
+	
+	history={
+		owner = AUH
+		victory_points = {
+			3434 2 		#Przemyśl
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = AUH
+		add_core_of = POL
+
+	}
+	
+	provinces={
+		3434 9494 
+	}
+	manpower=60442
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

@@ -1,0 +1,24 @@
+state={
+	id=884
+	name="STATE_884"
+	
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = UKR
+
+	}
+	
+	provinces={
+		568 721 737 767 3573 6771 9712 
+	}
+	manpower=289316
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

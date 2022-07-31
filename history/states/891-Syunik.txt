@@ -1,0 +1,28 @@
+state={
+	id=891
+	name="STATE_891"
+	
+	history={
+		owner = RUS
+		victory_points = {
+			6997 2 		#Nakhchivan
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = ARM
+
+	}
+	
+	provinces={
+		1467 4660 6642 6997 9715 
+	}
+	manpower=257000
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

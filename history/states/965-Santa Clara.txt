@@ -1,0 +1,25 @@
+state={
+	id=965
+	name="STATE_965"
+	
+	history={
+		owner = MEX
+		victory_points = {
+			9637 5 		#Santa Clara
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+
+	}
+	
+	provinces={
+		3840 6861 9637 
+	}
+	manpower=35039
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=town
+}

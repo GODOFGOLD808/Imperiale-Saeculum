@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {	#National Jacobin
+		name = "GFX_ideology_FRA_socialist_group"
+		texturefile = "gfx/interface/ideologies/parties/national_jacobin.dds"
+	}
+}

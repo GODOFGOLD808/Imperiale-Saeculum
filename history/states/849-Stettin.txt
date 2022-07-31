@@ -1,0 +1,31 @@
+state={
+	id=849
+	name="STATE_849"
+	
+	history={
+		victory_points = {
+			6282 10 		#Stettin
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			6282 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = GER
+		add_core_of = PRU
+
+	}
+	
+	provinces={
+		6282 
+	}
+	manpower=404461
+	buildings_max_level_factor=1.000
+	local_supplies=12.000
+	state_category=town
+}

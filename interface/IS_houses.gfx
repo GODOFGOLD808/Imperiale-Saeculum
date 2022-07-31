@@ -1,0 +1,37 @@
+spriteTypes = {
+	
+	spriteType = {	#Bourbon of Two Sicilies
+		name = "GFX_ideology_SIC_monarchist_group"
+		texturefile = "gfx/interface/ideologies/houses/Bourbon_Two_Siciles.dds"
+	}
+	
+	spriteType = {	#Stuart
+		name = "GFX_ideology_ENG_monarchist_group"
+		texturefile = "gfx/interface/ideologies/houses/Stuart.dds"
+	}
+	
+	spriteType = {	#Habsburg (Austria)
+		name = "GFX_ideology_AUS_monarchist_group"
+		texturefile = "gfx/interface/ideologies/houses/habsburg.dds"
+	}
+	
+	spriteType = {	#Habsburg-Lorraine
+		name = "GFX_ideology_HUN_monarchist_group"
+		texturefile = "gfx/interface/ideologies/houses/habsburg_lorraine.dds"
+	}
+	
+	spriteType = {	#Habsburg (Spain)
+		name = "GFX_ideology_SPR_monarchist_group"
+		texturefile = "gfx/interface/ideologies/houses/habsburg_spain.dds"
+	}
+	
+	spriteType = {	#Fitsjames
+		name = "GFX_ideology_ENG_monarchist_group"
+		texturefile = "gfx/interface/ideologies/houses/fitsjames.dds"
+	}
+	
+	spriteType = {	#Orléans
+		name = "GFX_ideology_FRA_monarchist_group"
+		texturefile = "gfx/interface/ideologies/houses/orleans.dds"
+	}
+}

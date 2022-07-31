@@ -1,0 +1,268 @@
+###########################################
+####	Generic Ideological Events		###
+###########################################
+
+add_namespace = fundamentalist
+add_namespace = national_populist
+add_namespace = authoritarian
+add_namespace = conservative
+add_namespace = centrist
+add_namespace = liberal
+add_namespace = socialist
+add_namespace = marxist
+
+# Fundamentalism
+country_event = {
+	id = fundamentalist.1
+	title = fundamentalist.1.title
+	desc = fundamentalist.1.desc
+	picture = GFX_report_event_fundamentalism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = fundamentalist
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = fundamentalist.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = fundamentalist
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = no
+		}
+	}
+}
+
+# Nationalism
+country_event = {
+	id = national_populist.1
+	title = national_populist.1.title
+	desc = national_populist.1.desc
+	picture = GFX_report_event_nationalism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = national_populist
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = national_populist.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = national_populist
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = no
+		}
+	}
+}
+
+# Authoritarianism
+country_event = {
+	id = authoritarian.1
+	title = authoritarian.1.title
+	desc = authoritarian.1.desc
+	picture = GFX_report_event_authoritarianism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = authoritarian
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = authoritarian.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = no
+		}
+	}
+}
+
+# Conservatism
+country_event = {
+	id = conservative.1
+	title = conservative.1.title
+	desc = conservative.1.desc
+	picture = GFX_report_event_conservatism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = conservative
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = conservative.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = conservative
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = yes
+		}
+	}
+}
+
+# Centrism
+country_event = {
+	id = centrist.1
+	title = centrist.1.title
+	desc = centrist.1.desc
+	picture = GFX_report_event_centrism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = centrist
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = centrist.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = yes
+		}
+	}
+}
+
+# Liberalism
+country_event = {
+	id = liberal.1
+	title = liberal.1.title
+	desc = liberal.1.desc
+	picture = GFX_report_event_liberalism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = liberal
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = liberal.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = yes
+		}
+	}
+}
+
+# Socialism
+country_event = {
+	id = socialist.1
+	title = socialist.1.title
+	desc = socialist.1.desc
+	picture = GFX_report_event_socialism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = socialist
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = socialist.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = socialist
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = yes
+		}
+	}
+}
+
+# Marxism-Leninism
+country_event = {
+	id = marxist.1
+	title = marxist.1.title
+	desc = marxist.1.desc
+	picture = GFX_report_event_communism
+	
+	trigger = {
+		has_government = ROOT
+		NOT = {
+			has_government = marxist
+		} 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = marxist.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.2
+		}
+		hidden_effect = {
+			hold_election = no
+		}
+	}
+}

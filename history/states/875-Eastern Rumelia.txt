@@ -1,0 +1,27 @@
+state={
+	id=875
+	name="STATE_875"
+	
+	history={
+		owner = OTT
+		victory_points = {
+			878 2 		#Kardzali
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = OTT
+		add_core_of = BUL
+
+	}
+	
+	provinces={
+		878 893 3937 6857 9818 9862 11813 
+	}
+	manpower=2472723
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=rural
+}

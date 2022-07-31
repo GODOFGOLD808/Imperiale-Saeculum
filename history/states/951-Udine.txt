@@ -1,0 +1,29 @@
+state={
+	id=951
+	name="STATE_951"
+	
+	history={
+		owner = AUH
+		victory_points = {
+			628 2 		#Udine
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+
+		}
+		add_core_of = AUH
+		add_core_of = AUS
+		add_core_of = ITA
+		#add_core_of = VNC
+
+	}
+	
+	provinces={
+		628 3657 
+	}
+	manpower=100170
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

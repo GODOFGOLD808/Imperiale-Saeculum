@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_logo_game"
+		texturefile = "gfx/interface/logo_game.dds"
+	}
+}

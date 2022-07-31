@@ -1,0 +1,40 @@
+﻿capital = 4
+
+oob = "AUH_1888"
+
+set_oob = "AUH_1888"
+set_oob = "AUH_1888_nsb"
+
+set_naval_oob = "AUH_1888_Naval"
+set_naval_oob = "AUH_1888_Naval_Legacy"
+
+set_research_slots = 3
+
+set_stability = 0.50
+
+starting_train_buffer = 3.0
+
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = AUH_franz_joseph_i
+#recruit_character = AUH_carl_i					#1st Successor
+#recruit_character = AUH_otto_von_habsburg		#2nd Successor
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1848.12.2"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 10
+	monarchist = 50
+	conservative = 30
+	centrist = 5
+	liberal = 5
+	socialist = 0
+	marxist = 0
+}

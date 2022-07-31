@@ -1,0 +1,25 @@
+state={
+	id=946
+	name="STATE_946"
+	
+	history={
+		owner = KOR
+		victory_points = {
+			1177 1 		#Jeju
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KOR
+
+	}
+	
+	provinces={
+		1177 
+	}
+	manpower=634161
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=small_island
+}

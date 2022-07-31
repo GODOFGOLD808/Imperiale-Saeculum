@@ -1,0 +1,26 @@
+state={
+	id=885
+	name="STATE_885"
+	
+	history={
+		owner = RUS
+		victory_points = {
+			3333 1 		#Pytalovo
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+
+	}
+	
+	provinces={
+		415 3310 3333 
+	}
+	manpower=10803
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

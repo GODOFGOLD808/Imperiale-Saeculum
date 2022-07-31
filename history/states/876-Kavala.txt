@@ -1,0 +1,27 @@
+state={
+	id=876
+	name="STATE_876"
+	
+	history={
+		owner = OTT
+		victory_points = {
+			9930 2 		#Kavala
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = OTT
+		add_core_of = GRE
+
+	}
+	
+	provinces={
+		3526 3936 6990 9791 9930 
+	}
+	manpower=56371
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

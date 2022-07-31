@@ -1,0 +1,26 @@
+state={
+	id=848
+	name="STATE_848"
+	
+	history={
+		victory_points = {
+			11415 2 		#Cottbus
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GER
+		add_core_of = PRU
+
+	}
+	
+	provinces={
+		478 9496 11415 
+	}
+	manpower=194328
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

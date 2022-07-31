@@ -1,0 +1,25 @@
+state={
+	id=874
+	name="STATE_874"
+	
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = OTT
+		add_core_of = YUG
+		add_core_of = SER
+		add_claim_by = BUL
+
+	}
+	
+	provinces={
+		907 3833 6886 
+	}
+	manpower=173327
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

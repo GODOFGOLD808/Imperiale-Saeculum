@@ -1,0 +1,28 @@
+state={
+	id=962
+	name="STATE_962"
+	
+	history={
+		owner = AUH
+		victory_points = {
+			438 5 		#Ternopil
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = AUH
+		add_core_of = POL
+		add_core_of = UKR
+
+	}
+	
+	provinces={
+		438 3483 3562 11427 
+	}
+	manpower=1030562
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=pastoral
+}

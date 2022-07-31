@@ -1,0 +1,27 @@
+
+state={
+	id=1010
+	name="STATE_1010"
+
+	history={
+		owner = SIA
+		victory_points = {
+			1488 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SIA
+		add_core_of = LAO
+
+	}
+
+	provinces={
+		1253 1488 7312 7559 7675 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=3.000
+}

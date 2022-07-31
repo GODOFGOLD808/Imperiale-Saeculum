@@ -1,0 +1,26 @@
+state={
+	id=932
+	name="STATE_932"
+	
+	history={
+		owner = POR
+		victory_points = {
+			11851 1 		#Olivenza
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = POR
+		add_core_of = SPR
+
+	}
+	
+	provinces={
+		6884 9819 11851 
+	}
+	manpower=11986
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+state={
+	id=1006
+	name="STATE_1006"
+
+	history={
+		owner = BRM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		1296 1315 1385 4275 10217 12292 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=pastoral
+}

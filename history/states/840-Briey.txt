@@ -1,0 +1,22 @@
+state={
+	id=840
+	name="STATE_840"
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = FRA
+
+	}
+	
+	provinces={
+		3560 5291 
+	}
+	manpower=5729
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=rural
+}

@@ -1,0 +1,63 @@
+###########################
+# Imperiale Saeculum News Events
+###########################
+
+add_namespace = news
+
+# Prince Robert becomes King
+news_event = {
+	id = news.1
+	title = news.1.title
+	desc = news.1.desc
+	picture = GFX_news_event_001
+	
+	trigger = {
+		ENG = {
+			has_completed_focus = ENG_the_grand_coronation
+			has_country_leader = {
+				name = "Robert VII"
+				ruling_only = yes
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = { TAG = ENG }
+	}
+}
+
+# Wilhelm I dies
+news_event = {
+	id = news.2
+	title = news.2.title
+	desc = news.2.desc
+	picture = GFX_news_event_002
+	
+	trigger = {
+		GER = {
+			date > 1888.3.9
+			has_country_leader = {
+				name = "Wilhelm I"
+				ruling_only = yes
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = { TAG = GER }
+	}
+}

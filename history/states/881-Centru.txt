@@ -1,0 +1,27 @@
+state={
+	id=881
+	name="STATE_881"
+	
+	history={
+		owner = AUH
+		victory_points = {
+			711 2 		#Miercurea Ciuc
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = AUH
+		add_core_of = ROM
+
+	}
+	
+	provinces={
+		711 3689 9668 9670 
+	}
+	manpower=2251268
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

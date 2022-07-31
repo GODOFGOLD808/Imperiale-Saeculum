@@ -1,0 +1,76 @@
+﻿######################
+### British Empire ###
+######################
+
+capital = 126
+
+set_oob = "ENG_1888"
+set_oob = "ENG_1888_nsb"
+
+starting_train_buffer = 4
+
+set_naval_oob = "ENG_1888_Naval"
+set_naval_oob = "ENG_1888_Naval_Legacy"
+
+load_oob = "ENG_Motorized"
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.1
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_technology = {
+	gwtank = 1
+	basic_light_tank = 1
+}
+set_technology = {
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+}
+set_technology = { camelry = 1 }
+set_technology = {
+	pre_dreadnaughts = 1
+}
+
+add_ideas = {
+	
+}
+
+recruit_character = ENG_robert_stuart_wittelsbach	#Robert, Prince of Wales
+#recruit_character = ENG_Alexandrina_victoria	#Queen Victoria of Hanover
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1888.1.1"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 2
+	monarchist = 50
+	conservative = 10
+	centrist = 3
+	liberal = 15
+	socialist = 10
+	marxist = 10
+}
+
+create_faction = "Commonwealth"
+add_to_faction = ENG
+add_to_faction = USA	#American Administration Colonies
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+
+give_military_access = CAN
+give_military_access = USA
+give_military_access = AST
+
+add_to_faction = RAJ		# Must be a colony/puppet
+add_to_faction = MAL		# Must be a colony/puppet

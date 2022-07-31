@@ -1,0 +1,27 @@
+state={
+	id=919
+	name="STATE_919"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			7394 3 		#Cork
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = IRE
+
+	}
+	
+	provinces={
+		7394 11237 
+	}
+	manpower=542868
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

@@ -1,0 +1,26 @@
+state={
+	id=837
+	name="STATE_837"
+	
+	history={
+		victory_points = {
+			11435 2 		#Trier
+		}
+		owner = RHE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = RHE
+
+	}
+	
+	provinces={
+		11435 11470 11494 
+	}
+	manpower=110636
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

@@ -1,0 +1,24 @@
+state={
+	id=981
+	name="STATE_981"
+	
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = CAN
+
+	}
+	
+	provinces={
+		1320 7414 10157 10198 
+	}
+	manpower=46385
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=pastoral
+}

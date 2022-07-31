@@ -1,0 +1,27 @@
+state={
+	id=1027
+	name="STATE_1027"
+	
+	history={
+		owner = AUH
+		victory_points = {
+			11401 1 	#Liberec
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = AUH
+		add_core_of = CZE
+
+	}
+	
+	provinces={
+		469 11401 11414 
+	}
+	manpower=104163
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+	state_category=rural
+}

@@ -1,0 +1,1175 @@
+technologies = {
+
+############################# INFANTRY WEAPONS ############################
+
+	infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_0
+		}
+		
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = infantry_upgrades_1
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = percussion_cap
+			research_cost_coeff = 1
+		}		
+
+		path = {
+			leads_to_tech = cavalry_sabers
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1836
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = -1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_upgrades_1 = {
+
+		path = {
+			leads_to_tech = infantry_weapons_2
+			research_cost_coeff = 1
+		}	
+
+		category_light_infantry = {
+			soft_attack = 0.02
+		}
+		
+		cavalry = {
+			soft_attack = 0.02
+		}	
+
+		research_cost = 1
+		start_year = 1863
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 3
+						
+			modifier = {
+				factor = 10
+				date > "1889.1.1"
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5
+			}
+		}
+	}
+
+	infantry_weapons_2 = {
+		
+		path = {
+			leads_to_tech = infantry_upgrades_2
+			research_cost_coeff = 1
+		}		
+
+		enable_equipments = {
+			infantry_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 1888
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_upgrades_2 = {
+
+		path = {
+			leads_to_tech = infantry_weapons_3
+			research_cost_coeff = 1
+		}	
+
+		category_light_infantry = {
+			soft_attack = 0.04
+		}
+		
+		cavalry = {
+			soft_attack = 0.04
+		}	
+
+		research_cost = 1.5
+		start_year = 1892
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 3
+						
+			modifier = {
+				factor = 10
+				date > "1894.1.1"
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5
+			}
+		}
+	}
+
+	infantry_weapons_3 = {
+		
+		path = {
+			leads_to_tech = infantry_upgrades_3
+			research_cost_coeff = 1
+		}		
+
+		enable_equipments = {
+			infantry_equipment_2
+		}
+
+		path = {
+			leads_to_tech = rifle_Chemistry
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1895
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_upgrades_3 = {
+
+		path = {
+			leads_to_tech = infantry_weapons_4
+			research_cost_coeff = 1
+		}	
+
+		category_light_infantry = {
+			soft_attack = 0.06
+		}
+		
+		cavalry = {
+			soft_attack = 0.06
+		}	
+
+		motorized = {
+			soft_attack = 0.04
+		}
+
+		research_cost = 2
+		start_year = 1898
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 3
+						
+			modifier = {
+				factor = 10
+				date > "1900.1.1"
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5
+			}
+		}
+	}
+
+	rifle_chemistry = {
+		
+		path = {
+			leads_to_tech = compressed_gas_propellants
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2
+		start_year = 1898
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	compressed_gas_propellants = {
+		
+		
+		research_cost = 2
+		start_year = 1900
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_weapons_4 = {
+		
+		path = {
+			leads_to_tech = infantry_upgrades_2
+			research_cost_coeff = 1
+		}		
+
+		enable_equipments = {
+			infantry_equipment_3
+		}
+
+		research_cost = 2
+		start_year = 1900
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	##########2nd line#########
+
+	percussion_cap = {
+		
+		path = {
+			leads_to_tech = black_powder
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1863
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1890.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1892.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	black_powder = {
+		
+		path = {
+			leads_to_tech = potassium_nitrade
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1888
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1892.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1893.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	potassium_nitrade = {
+		
+		path = {
+			leads_to_tech = round_casing
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1892
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1894.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1895.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1896.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	round_casing = {
+
+		research_cost = 1.5
+		start_year = 1895
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1897.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1898.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1899.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	######3rd Line#####
+
+	cavalry_sabers = {
+		
+		path = {
+			leads_to_tech = bayonet_0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1863
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1889.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1890.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	bayonet_0 = {
+		
+		path = {
+			leads_to_tech = bayonet_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1888
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1890.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1892.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	bayonet_1 = {
+		
+		path = {
+			leads_to_tech = bayonet_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1895
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1897.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1898.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1898.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	bayonet_2 = {
+		
+		research_cost = 2
+		start_year = 1900
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1902.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1903.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1904.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+
+
+################################## SIDE ARMS ##############################
+
+	side_arms_0 = {
+		
+		path = {
+			leads_to_tech = hammer
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1836
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1889.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1890.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	hammer = {
+		
+		path = {
+			leads_to_tech = side_arms_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1863
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1890.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1892.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	side_arms_1 = {
+		
+		path = {
+			leads_to_tech = swing_out_cylinder
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1888
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1890.6.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.6.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1892.6.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	swing_out_cylinder = {
+		
+		path = {
+			leads_to_tech = side_arms_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1892
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1893.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1894.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1895.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	side_arms_2 = {
+		
+		path = {
+			leads_to_tech = magazines
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1895
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1896.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1897.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1898.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	magazines = {
+		
+		path = {
+			leads_to_tech = side_arms_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1898
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1899.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1900.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1901.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	side_arms_3 = {
+
+		research_cost = 2
+		start_year = 1900
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1899.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1900.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1901.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+
+	#######################ROAD TO MOTORIZATION#######################
+
+	horse_drawn_trollys = {
+		
+		path = {
+			leads_to_tech = stationary_steam_engine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1836
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1889.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1890.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	stationary_steam_engine = {
+		
+		path = {
+			leads_to_tech = steam_wagon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1863
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1890.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1891.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1892.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	steam_wagon = {
+		
+		path = {
+			leads_to_tech = improved_steam_engine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1888
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1892.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1893.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1894.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	improved_steam_engine = {
+		
+		path = {
+			leads_to_tech = steam_buses
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1892
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1893.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1894.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1895.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	steam_buses = {
+		
+		path = {
+			leads_to_tech = early_motorized
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1895
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1896.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1897.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1898.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	early_motorized = {
+
+		research_cost = 2
+		start_year = 1900
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_equipments = {
+			motorized_equipment_1
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1902.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1903.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1904.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+}

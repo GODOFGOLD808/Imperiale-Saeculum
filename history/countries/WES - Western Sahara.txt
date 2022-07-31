@@ -1,0 +1,35 @@
+﻿capital = 699
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1888.1.1"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	fundamentalist = 0
+	national_populist = 5
+	monarchist = 70
+	conservative = 15
+	centrist = 5
+	liberal = 5
+	socialist = 0
+	marxist = 0
+}
+
+create_country_leader = {
+	name = "El-Ouali Mustapha Sayed"
+	desc = ""
+	picture = GFX_portrait_El_Ouali_Mustapha_Sayed
+	ideology = centrism
+	traits = {
+		#
+	}
+}

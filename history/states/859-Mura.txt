@@ -1,0 +1,26 @@
+state={
+	id=859
+	name="STATE_859"
+	
+	history={
+		owner = AUH
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = AUH
+		add_core_of = AUS
+		add_core_of = YUG
+		add_core_of = SLV
+
+	}
+	
+	provinces={
+		665 6672 
+	}
+	manpower=114238
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

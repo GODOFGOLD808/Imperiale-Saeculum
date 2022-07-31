@@ -1,0 +1,30 @@
+
+state={
+	id=170
+	name="STATE_170"
+	resources={
+		tungsten=4.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			6902 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		809 858 931 985 3930 3986 6866 6902 6948 6954 9877 9881 9925 11780 11798 13224 13230 
+	}
+	manpower=1417652
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

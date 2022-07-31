@@ -1,0 +1,26 @@
+state={
+	id=1022
+	name="STATE_1022"
+	
+	history={
+		owner = SIA
+		victory_points = {
+			12345 1 	#Phitsanulok
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SIA
+
+	}
+	
+	provinces={
+		7353 7572 10221 10398 10411 12173 12345 
+	}
+	manpower=225000
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=pastoral
+}

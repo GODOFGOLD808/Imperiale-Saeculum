@@ -1,0 +1,29 @@
+state={
+	id=974
+	name="STATE_974"
+	
+	history={
+		owner = USA
+		victory_points = {
+			6909 3 		#Hartford
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			9832 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		6909 9832 9847 9850 
+	}
+	manpower=3594478
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=pastoral
+}

@@ -1,0 +1,26 @@
+state={
+	id=838
+	name="STATE_838"
+	
+	history={
+		victory_points = {
+			11531 2 		#Saarbrücken
+		}
+		owner = RHE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = RHE
+
+	}
+	
+	provinces={
+		9575 11531 
+	}
+	manpower=990509
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=pastoral
+}

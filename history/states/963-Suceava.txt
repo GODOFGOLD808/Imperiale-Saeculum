@@ -1,0 +1,27 @@
+state={
+	id=963
+	name="STATE_963"
+	
+	history={
+		owner = AUH
+		victory_points = {
+			6761 2 		#Suceava
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = AUH
+		add_core_of = ROM
+
+	}
+	
+	provinces={
+		6761 11689 
+	}
+	manpower=124161
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

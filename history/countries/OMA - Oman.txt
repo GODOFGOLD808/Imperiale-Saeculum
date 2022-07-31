@@ -1,0 +1,33 @@
+﻿capital = 294
+
+oob = "OMA_1888"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_technology = { camelry = 1 }
+
+recruit_character = OMA_turki_bin_said
+#recruit_character = OMA_faisal_bin_turki	#Successor
+
+set_convoys = 10
+set_war_support = 0.1
+set_stability = 0.8
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1888.1.1"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 7
+	monarchist = 80
+	conservative = 13
+	centrist = 0
+	liberal = 0
+	socialist = 0
+	marxist = 0
+}

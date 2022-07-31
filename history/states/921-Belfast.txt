@@ -1,0 +1,32 @@
+state={
+	id=921
+	name="STATE_921"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			3379 10 		#Belfast
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			3379 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+
+	}
+	
+	provinces={
+		3217 3242 3329 3379 
+	}
+	manpower=341877
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=large_town
+}

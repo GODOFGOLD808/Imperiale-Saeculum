@@ -1,0 +1,39 @@
+﻿ capital = 122
+
+#oob = "WLS_1888"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	fuel_silos = 1
+}
+
+set_convoys = 20
+
+recruit_character = WLS_???
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	national_populist = 7
+	monarchist = 15
+	conservative = 70
+	centrist = 4
+	liberal = 4
+	socialist = 0
+	marxist = 0
+}
+
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}

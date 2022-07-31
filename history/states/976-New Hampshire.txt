@@ -1,0 +1,24 @@
+state={
+	id=976
+	name="STATE_976"
+	
+	history={
+		owner = USA
+		victory_points = {
+			3712 2 		#Concord
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		733 3712 3715 10481 
+	}
+	manpower=1377529
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=pastoral
+}

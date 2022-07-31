@@ -1,0 +1,129 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "imr_are/british_empire_god_save_the_king.ogg"
+	volume = 0.65
+}
+
+#Imperial Saeculum
+
+music = {
+	name = "british_empire_god_save_the_king"
+	file = "imr_are/british_empire_god_save_the_king.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "zadok_the_priest_the_coronation_anthem"
+	file = "imr_are/zadok_the_priest_the_coronation_anthem.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "dominus_magisterium"
+	file = "imr_are/dominus_magisterium.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "das_lied_der_deutschen"
+	file = "imr_are/das_lied_der_deutschen.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "die_wacht_am_rhein"
+	file = "imr_are/die_wacht_am_rhein.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "wohlauf_kameraden_aufs_pferd"
+	file = "imr_are/wohlauf_kameraden_aufs_pferd.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "imperial_anthem_of_the_german_empire"
+	file = "imr_are/imperial_anthem_of_the_german_empire.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "heil_dir_im_siegerkranz"
+	file = "imr_are/heil_dir_im_siegerkranz.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "helenenmarsch"
+	file = "imr_are/helenenmarsch.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "british_patriotic_song_rule_britannia"
+	file = "imr_are/british_patriotic_song_rule_britannia.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "revolution_francaise"
+	file = "imr_are/revolution_francaise.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "land_of_hope_and_glory"
+	file = "imr_are/land_of_hope_and_glory.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "its_a_long_way_to_tipperary"
+	file = "imr_are/its_a_long_way_to_tipperary.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "farewell_to_slavianka"
+	file = "imr_are/farewell_to_slavianka.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "march_of_the_siberian_riflemen"
+	file = "imr_are/march_of_the_siberian_riflemen.ogg
+	volume = 0.65
+}
+
+music = {
+	name = "if_tomorrow_is_war"
+	file = "imr_are/if_tomorrow_is_war.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "warszawianka.ogg"
+	file = "imr_are/warszawianka.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "die_eisenfaust_am_lanzenschaft.ogg"
+	file = "imr_are/die_eisenfaust_am_lanzenschaft.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gott_erhalte_franz_den_kaiser_imperial_anthem_instrumental"
+	file = "imr_are/gott_erhalte_franz_den_kaiser_imperial_anthem_instrumental.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "russian_republic_workers_marseillaise"
+	file = "imr_are/russian_republic_workers_marseillaise.ogg"
+	volume = 0.65
+}

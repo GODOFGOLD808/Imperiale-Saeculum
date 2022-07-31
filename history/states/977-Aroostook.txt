@@ -1,0 +1,25 @@
+state={
+	id=977
+	name="STATE_977"
+	
+	history={
+		owner = CAN
+		victory_points = {
+			4287 2 		#Caribou
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CAN
+
+	}
+	
+	provinces={
+		4287 10247 12221 
+	}
+	manpower=67809
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

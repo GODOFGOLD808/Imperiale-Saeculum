@@ -1,0 +1,125 @@
+﻿add_namespace = is_spain
+
+# Decide the Spanish Regency
+country_event = {
+	id = is_spain.1
+	title = is_spain.1.title
+	desc = is_spain.1.desc
+	picture = GFX_report_event_robert_i_coronation
+	
+	trigger = {
+		ENG = {
+			has_ideology_group = monarchist
+			has_country_leader_ideology = regent
+			has_country_leader = {
+				name = "Maria Christina"
+				ruling_only = yes
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {	#Retain the Spanish Monarchy
+		name = is_spain.1.a
+		ai_chance = { factor = 60 } # AI Default path mainly
+		hidden_effect = {
+			
+		}
+	}
+	
+	option = {	#Reform to a Democratic/Socialist Republic
+		name = is_spain.1.2
+		ai_chance = { factor = 30 } # Uncommon AI path
+		if = {	# If 15% are Marxist, this happens
+			limit = {
+				AND = {
+					SPR = { marxist = 0.15 } #Equals to
+				}
+				OR = {
+					SPR = { marxist > 0.15 } #Greater than
+				}
+			}
+			random_list = {
+				100 = { SPR = { country_event = { id = SPR_marxist.? hours = 24 } } } #country becomes marxist
+				0 = { SPR = { country_event = { id = SPR_democratic.? hours = 24 } } } #country becomes democratic
+			}
+		}
+		if = {	# If 20% are Democratic, this happens
+			limit = {
+				AND = {
+					SPR = { conservative > 0.2 }
+				}
+				OR = {
+					SPR = { liberal > 0.2 }
+				}
+			}
+			random_list = {
+				0 = { SPR = { country_event = { id = SPR_marxist.? hours = 24 } } } #country becomes marxist
+				100 = { SPR = { country_event = { id = SPR_democratic.? hours = 24 } } } #country becomes democratic
+			}
+		}
+		hidden_effect = {
+			
+		}
+	}
+	
+	option = {	#Reform to a National Dictatorship
+		name = is_spain.1.2
+		ai_chance = { factor = 10 } # Rare AI path
+		if = {	# If 20% are Nationalist, this happens
+			limit = {
+				AND = {
+					SPR = { has_idea_with_trait = ambitious_national }
+				}
+				AND = {
+					SPR = { nationalist = 0.20 } #Equals to
+				}
+				OR = {
+					SPR = { nationalist > 0.20 } #Greater than
+				}
+			}
+			random_list = {
+				Nationalist = { SPR = { country_event = { id = SPR_nationalist.1 hours = 24 } } } #country becomes dictatorship
+				0 = { SPR = { country_event = { id = SPR_nationalist.2 hours = 24 } } } #dictatorship averted
+			}
+		}
+		if = {	# If 20% are not Nationalist, this happens
+			limit = {
+				AND = {
+					SPR = { has_idea_with_trait = ambitious_national }
+				}
+				AND = {
+					SPR = { monarchist = 0.50 } #Equals to
+				}
+				AND = {
+					SPR = { monarchist > 0.50 } #Greater than
+				}
+				OR = {
+					SPR = { nationalist < 0.20 } #Less than
+				}
+			}
+			random_list = {
+				0 = { SPR = { country_event = { id = SPR_nationalist.1 hours = 24 } } } #country becomes dictatorship
+				100 = { SPR = { country_event = { id = SPR_nationalist.2 hours = 24 } } } #dictatorship averted
+			}
+		}
+		hidden_effect = {
+			if = {	# If 20% are not Nationalist, this happens
+				limit = {
+					AND = {
+						SPR = { has_idea_with_trait = ambitious_national }
+					}
+					AND = {
+						SPR = { monarchist = 0.50 } #Equals to
+					}
+					AND = {
+						SPR = { nationalist > 0.20 } #Greater than
+					}
+				}
+			}
+		}
+	}
+}

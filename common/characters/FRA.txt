@@ -1,0 +1,18 @@
+characters = {
+	FRA_philippe_vii = {
+		name = FRA_philippe_vii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/Portrait_FRA_philippe_vii.dds"
+			}
+		}
+		country_leader = {
+			ideology=constitutional_monarchist
+			traits = {
+				colonial_veteran # Due to battle scar
+			}
+			expire = "1894.9.8.1" # His death
+			id = -1
+		}
+	}
+}

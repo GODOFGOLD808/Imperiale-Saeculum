@@ -1,0 +1,29 @@
+spriteTypes = {	
+
+	#Generic
+	SpriteType = {
+		name = "GFX_idea_generic_trade_republic"
+		texturefile = "gfx/interface/ideas/Generic/idea_generic_trade_republic.dds"
+	}
+	
+	#ENG
+	SpriteType = {
+		name = "GFX_idea_ENG_cholera_outbreak"
+		texturefile = "gfx/interface/ideas/ENG/ENG_cholera_outbreak.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ENG_removing_cholera"
+		texturefile = "gfx/interface/ideas/ENG/ENG_removing_cholera.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ENG_for_the_people"
+		texturefile = "gfx/interface/ideas/ENG/ENG_for_the_people.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ENG_persuaded_industrialists"
+		texturefile = "gfx/interface/ideas/ENG/ENG_persuaded_industrialists.dds"
+	}
+}

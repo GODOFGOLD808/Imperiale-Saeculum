@@ -1,0 +1,27 @@
+state={
+	id=949
+	name="STATE_949"
+	
+	history={
+		owner = FRA
+		victory_points = {
+			3961 2 		#Digne-les-Bains
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = FRA
+
+	}
+	
+	provinces={
+		3961 6975 
+	}
+	manpower=16333
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

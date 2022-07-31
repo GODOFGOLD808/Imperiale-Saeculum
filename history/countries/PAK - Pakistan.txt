@@ -1,0 +1,118 @@
+﻿capital = 440
+
+oob = "PAK_1888"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+add_to_tech_sharing_group = commonwealth_research
+
+set_convoys = 20
+
+recruit_character = PAK_acd2
+recruit_character = PAK_fascist_guy
+recruit_character = PAK_ncs
+recruit_character = PAK_nccr
+recruit_character = PAK_aco2
+recruit_character = PAK_communist_guy
+recruit_character = PAK_ai2
+recruit_character = PAK_ar
+recruit_character = PAK_coi
+recruit_character = PAK_acas
+recruit_character = PAK_acgs
+recruit_character = PAK_aa2
+recruit_character = PAK_democratic_guy
+recruit_character = PAK_acr
+recruit_character = PAK_stc
+recruit_character = PAK_awt
+recruit_character = PAK_pot
+recruit_character = PAK_mt
+recruit_character = PAK_ncm
+recruit_character = PAK_nt
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    nationalist = 70
+    monarchist = 5
+    conservative = 10
+    centrist = 10
+    liberal = 0
+	socialist = 2
+    marxist = 3
+}
+
+create_country_leader = {
+	name = "Qazi Muhammad Essa"
+	
+	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
+	expire = "1960.1.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Muhammad Ali Jinnah"
+	
+	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
+	expire = "1960.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Haji Mohammad Danesh"
+	
+	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
+	expire = "1960.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Muhammad Zia-ul-Haq"
+	gfx = "GFX_Portrait_The_Raj_Army_Generic"
+	traits = {  }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Iftikhar Khan Janjua"
+	gfx = "GFX_Portrait_The_Raj_Army_Generic_2"
+	traits = {  }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Akbar Khan"
+	gfx = "GFX_Portrait_The_Raj_Army_Generic"
+	traits = { trickster }
+	skill = 3
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}

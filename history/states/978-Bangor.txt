@@ -1,0 +1,26 @@
+state={		#Penobscot
+	id=978
+	name="STATE_978"
+	
+	history={
+		owner = USA
+		victory_points = {
+			12459 2 		#Bangor
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		3732 6719 7462 10318 12202 12459 
+	}
+	manpower=152199
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

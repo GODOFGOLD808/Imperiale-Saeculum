@@ -1,0 +1,27 @@
+state={
+	id=847
+	name="STATE_847"
+	
+	history={
+		victory_points = {
+			3522 3 		#Magdeburg
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		add_core_of = PRU
+
+	}
+	
+	provinces={
+		3522 6487 11359 
+	}
+	manpower=238697
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=pastoral
+}

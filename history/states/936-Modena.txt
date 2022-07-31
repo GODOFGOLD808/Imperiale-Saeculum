@@ -1,0 +1,28 @@
+state={
+	id=936
+	name="STATE_936"
+	
+	history={
+		owner = TUS
+		victory_points = {
+			11734 2 		#Modena
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = TUS
+		add_core_of = MOD
+		add_core_of = ITA
+
+	}
+	
+	provinces={
+		11734 
+	}
+	manpower=184727
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

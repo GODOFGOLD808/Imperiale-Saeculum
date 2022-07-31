@@ -1,0 +1,25 @@
+state={
+	id=915
+	name="STATE_915"
+	
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = TAN
+		add_core_of = MON
+
+	}
+	
+	provinces={
+		7804 7819 
+	}
+	manpower=12,395
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=rural
+}

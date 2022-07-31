@@ -1,0 +1,34 @@
+characters={
+	GER_friedrich_iii={
+		name=GER_friedrich_iii
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Friedrich_III.dds"
+			}
+		}
+		country_leader={
+			ideology=kaiser
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	GER_wilhelm_ii={
+		name=GER_wilhelm_ii
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+			}
+		}
+		country_leader={
+			ideology=kaiser
+			traits={
+				anti_democrat
+				ambitious_kaiser
+			}
+			expire="1941.6.4.1"
+			id=-1
+		}
+	}
+}

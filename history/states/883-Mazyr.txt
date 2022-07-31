@@ -1,0 +1,27 @@
+state={
+	id=883
+	name="STATE_883"
+	
+	history={
+		owner = RUS
+		victory_points = {
+			6232 2 		#Mazyr
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = BLR
+
+	}
+	
+	provinces={
+		6232 6556 9554 11453 
+	}
+	manpower=111770
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

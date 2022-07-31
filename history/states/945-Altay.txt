@@ -1,0 +1,29 @@
+state={
+	id=945
+	name="STATE_945"
+	
+	history={
+		owner = CHI
+		victory_points = {
+			4823 2 		#Altay
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = MON
+		add_core_of = SIK
+
+	}
+	
+	provinces={
+		4714 4823 4849 7693 7737 12590 12737 
+	}
+	manpower=218063
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=town
+}

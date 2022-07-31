@@ -1,0 +1,25 @@
+state={
+	id=930
+	name="STATE_930"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			9484 3 		#Bristol
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ENG
+
+	}
+	
+	provinces={
+		3422 3463 6351 9484 9562 
+	}
+	manpower=192801
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=town
+}

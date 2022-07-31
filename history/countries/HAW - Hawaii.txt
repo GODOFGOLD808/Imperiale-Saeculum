@@ -1,0 +1,71 @@
+﻿capital = 629
+
+#oob = "HAW_1888"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	fundamentalist = 10
+	nationalist = 10
+	monarchist = 20
+	conservative = 40
+	centrist = 5
+	liberal = 10
+	marxist = 5
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1888.1.1"
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 0
+	authoritarian = 20
+	conservative = 37
+	centrist = 9
+	liberal = 26
+	socialist = 5
+	marxist = 3
+}
+
+create_country_leader = {
+	name = "David Kalakaua Kawananakoa"
+	desc = ""
+	picture = GFX_portrait_David_Kalakaua_Kawananakoa
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Poindexter"
+	desc = ""
+	picture = GFX_portrait_Joseph_Poindexter
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Charles Fujimoto"
+	desc = ""
+	picture = GFX_portrait_Charles_Fujimoto
+	ideology = marxism
+	traits = {
+		#
+	}
+}

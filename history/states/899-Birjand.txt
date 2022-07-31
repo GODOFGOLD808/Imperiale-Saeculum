@@ -1,0 +1,26 @@
+state={
+	id=899
+	name="STATE_899"
+	
+	history={
+		owner = PER
+		victory_points = {
+			12852 2 		#Gorgan
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PER
+
+	}
+	
+	provinces={
+		7990 10759 10890 12739 12852 
+	}
+	manpower=203636
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

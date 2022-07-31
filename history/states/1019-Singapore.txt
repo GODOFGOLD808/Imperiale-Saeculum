@@ -1,0 +1,30 @@
+state={
+	id=1019
+	name="STATE_1019"
+	
+	history={
+		owner = FRA
+		victory_points = {
+			12299 10 		#Singapore
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12299 = {
+				naval_base = 3
+				coastal_bunker = 3
+
+			}
+		}
+		add_core_of = SNG
+
+	}
+	
+	provinces={
+		12113 12299 
+	}
+	manpower=1273600
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category=town
+}

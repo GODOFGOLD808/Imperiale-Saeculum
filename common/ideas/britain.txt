@@ -1,0 +1,124 @@
+ideas = {
+
+	country = {
+		ENG_cholera_outbreak = {
+			
+			picture = ENG_cholera_outbreak
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				political_power_gain = -0.3
+			}
+		}
+		
+		ENG_removing_cholera = {
+			
+			picture = ENG_removing_cholera
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.02
+			}
+		}
+		
+		ENG_for_the_people = {
+			
+			picture = ENG_for_the_people
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.1
+			}
+		}
+		
+		ENG_persuaded_industrialists = {
+			
+			picture = ENG_persuaded_industrialists
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+			}
+		}
+		
+		ENG_magna_carta_enforced = {
+			
+			picture = ENG_magna_carta_enforced
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_weekly = 0.01
+			}
+		}
+		
+		ENG_magna_carta_repealed = {
+			
+			picture = ENG_magna_carta_repealed
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_weekly = -0.01
+			}
+		}
+		
+		
+	}
+}

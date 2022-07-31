@@ -1,0 +1,26 @@
+state={
+	id=896
+	name="STATE_896"
+	
+	history={
+		owner = PER
+		victory_points = {
+			4901 2 		#Ardabil
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = PER
+
+	}
+	
+	provinces={
+		2071 4825 4901 10454 12793 
+	}
+	manpower=529374
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

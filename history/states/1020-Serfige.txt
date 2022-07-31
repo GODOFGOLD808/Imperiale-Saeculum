@@ -1,0 +1,27 @@
+state={
+	id=1020
+	name="STATE_1020"
+	
+	history={
+		owner = OTT
+		victory_points = {
+			966 1 		#Servia
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = OTT
+		add_core_of = GRE
+
+	}
+	
+	provinces={
+		841 966 3980 6930 9837 
+	}
+	manpower=11382
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=rural
+}

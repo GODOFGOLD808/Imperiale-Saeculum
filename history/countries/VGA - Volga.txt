@@ -1,0 +1,29 @@
+﻿capital = 829 #Engels
+
+#oob = "VGE_1888"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist = 25
+	authoritarian = 50
+	conservative = 15
+	centrist = 5
+	liberal = 5
+	socialist = 0
+	marxist = 0
+}
+
+recruit_character = VGE_heinrich_luft
+recruit_character = VGE_aleksander_heck

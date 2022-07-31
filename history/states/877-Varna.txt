@@ -1,0 +1,29 @@
+state={
+	id=877
+	name="STATE_877"
+	
+	history={
+		owner = BUL
+		victory_points = {
+			9783 2 		#Varna
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			9783 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = BUL
+
+	}
+	
+	provinces={
+		649 9769 9783 
+	}
+	manpower=335177
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

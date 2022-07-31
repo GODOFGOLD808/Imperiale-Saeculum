@@ -1,0 +1,23 @@
+
+state={
+	id=985
+	name="STATE_985"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		1663 1862 7721 7756 9695 10305 10582 10625 12134 12535 12607 13153 
+	}
+	manpower=20811
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=3.000
+}

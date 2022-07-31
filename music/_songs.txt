@@ -1,0 +1,119 @@
+music_station = "imr_are"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+#Imperial Saeculum
+
+music = {
+	song = "british_empire_god_save_the_king"
+	
+}
+
+music = {
+	song = "zadok_the_priest_the_coronation_anthem"
+	
+}
+
+music = {
+	song = "dominus_magisterium"
+	
+}
+
+music = {
+	song = "das_lied_der_deutschen"
+	
+}
+
+music = {
+	song = "Die_Wacht_am_Rhein"
+	
+}
+
+music = {
+	song = "wohlauf_kameraden_aufs_pferd"
+	
+}
+
+music = {
+	song = "das_lied_der_deutschen"
+	
+}
+
+music = {
+	song = "imperial_anthem_of_the_german_empire"
+	
+}
+
+
+music = {
+	song = "heil_dir_im_siegerkranz"
+	
+}
+
+music = {
+	song = "helenenmarsch"
+	
+}
+
+music = {
+	song = "british_patriotic_song_rule_britannia"
+	
+}
+
+music = {
+	song = "revolution_francaise"
+	
+}
+
+music = {
+	song = "land_of_hope_and_glory"
+	
+}
+
+music = {
+	song = "its_a_long_way_to_tipperary"
+	
+}
+
+music = {
+	song = "farewell_to_slavianka"
+	
+}
+
+music = {
+	song = "march_of_the_siberian_riflemen"
+	
+}
+
+music = {
+	song = "march_of_the_siberian_riflemen"
+	
+}
+
+music = {
+	song = "if_tomorrow_is_war"
+}
+
+music = {
+	song = "warszawianka"
+}
+
+music = {
+	song = "die_eisenfaust_am_lanzenschaft"
+}
+
+music = {
+	song = "gott_erhalte_franz_den_kaiser_imperial_anthem_instrumental"
+}
+
+music = {
+	song = "russian_republic_workers_marseillaise"
+	
+}

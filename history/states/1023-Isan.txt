@@ -1,0 +1,26 @@
+state={
+	id=1023
+	name="STATE_1023"
+	
+	history={
+		owner = SIA
+		victory_points = {
+			10438 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = SIA
+
+	}
+	
+	provinces={
+		1357 1535 1548 4511 4582 7516 7601 10384 10425 10438 12195 12264 12360 12373 12388 12402 12417 12431 
+	}
+	manpower=137979
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=pastoral
+}

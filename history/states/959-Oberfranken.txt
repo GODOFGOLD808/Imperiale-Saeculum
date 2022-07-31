@@ -1,0 +1,23 @@
+state={
+	id=959
+	name="STATE_959"
+	
+	history={
+		owner = BAV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = BAV
+		add_core_of = GER
+
+	}
+	
+	provinces={
+		3474 6421 11404 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

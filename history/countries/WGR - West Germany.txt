@@ -1,0 +1,50 @@
+﻿capital = 64
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_research_slots = 4
+set_convoys = 50
+set_stability = 0.7
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	national_populist = 7
+	authoritarian = 15
+	conservative = 70
+	centrist = 4
+	liberal = 4
+	socialist = 0
+	marxist = 0
+}
+
+add_ideas = {
+	
+}
+
+create_country_leader = {
+	name = "Klaus Klauser"
+	desc = ""
+	picture = GFX_portrait_Klaus_Klauser
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konrad Adenauer"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = GFX_portrait_Konrad_Adenauer
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}

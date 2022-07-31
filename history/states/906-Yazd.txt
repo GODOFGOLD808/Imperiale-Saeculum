@@ -1,0 +1,25 @@
+state={
+	id=906
+	name="STATE_906"
+	
+	history={
+		owner = PER
+		victory_points = {
+			8031 1 		#Yazd
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PER
+
+	}
+	
+	provinces={
+		1963 8031 10828 
+	}
+	manpower=1138533
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

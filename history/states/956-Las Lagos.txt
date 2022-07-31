@@ -1,0 +1,26 @@
+state={
+	id=956
+	name="STATE_956"
+	
+	history={
+		owner = PAT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			5121 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CHL
+		add_core_of = PAT
+
+	}
+	
+	provinces={
+		5121 5169 8251 12920 12954 12984 
+	}
+	manpower=823204
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category=pastoral
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=1021
+	name="STATE_1021"
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1990 4496 7492 7531 8045 10371 
+	}
+	manpower=29442
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=3.000
+}

@@ -1,0 +1,26 @@
+﻿capital = 229 #Baku
+
+oob = "AZR_1888"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    nationalist = 0
+    monarchist = 20
+    conservative = 40
+    centrist = 11
+    liberal = 15
+	socialist = 7
+    marxist = 7
+}

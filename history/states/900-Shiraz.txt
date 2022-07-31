@@ -1,0 +1,26 @@
+state={
+	id=900
+	name="STATE_900"
+	
+	history={
+		owner = PER
+		victory_points = {
+			8117 1 		#Shiraz
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = PER
+
+	}
+	
+	provinces={
+		4966 8117 
+	}
+	manpower=1565572
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=rural
+}

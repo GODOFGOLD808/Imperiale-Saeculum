@@ -1,0 +1,26 @@
+state={
+	id=870
+	name="STATE_870"
+	
+	history={
+		owner = AUH
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = AUH
+		add_core_of = HUN
+		add_core_of = YUG
+		add_core_of = SER
+		add_claim_by = CRO
+
+	}
+	
+	provinces={
+		11577 11580 
+	}
+	manpower=370114
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}

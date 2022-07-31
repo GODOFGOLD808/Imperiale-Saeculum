@@ -1,0 +1,26 @@
+state={
+	id=992
+	name="STATE_992"
+	
+	history={
+		owner = USA
+		victory_points = {
+			6778 2 		#Watertown
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		598 6778 6795 6916 9721 9754 11722 
+	}
+	manpower=4100000
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=pastoral
+}

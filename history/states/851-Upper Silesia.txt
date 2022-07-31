@@ -1,0 +1,23 @@
+state={
+	id=851
+	name="STATE_851"
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = GER
+		add_core_of = PRU
+
+	}
+	
+	provinces={
+		6512 9457 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=pastoral
+}

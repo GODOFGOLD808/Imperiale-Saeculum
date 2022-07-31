@@ -1,0 +1,30 @@
+state={
+	id=939
+	name="STATE_939"
+	
+	history={
+		owner = TWO
+		victory_points = {
+			4014 3 		#Syracuse
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			4014 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = TWO
+		add_core_of = ITA
+
+	}
+	
+	provinces={
+		1009 4014 7147 
+	}
+	manpower=122031
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=pastoral
+}

@@ -1,0 +1,28 @@
+﻿capital = 1
+
+#oob = "COR_1888"
+
+set_research_slots = 3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	nationalist = 8
+	monarchist = 10
+	conservative = 40
+	centrist = 3
+	liberal = 39
+	socialist = 0
+	marxist = 0
+}

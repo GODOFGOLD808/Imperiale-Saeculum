@@ -1,0 +1,44 @@
+
+state={
+	id=986
+	name="STATE_986"
+
+	history={
+		owner = FRA
+		victory_points = {
+			10352 3 
+		}
+		victory_points = {
+			7480 1 
+		}
+		victory_points = {
+			4464 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			10352 = {
+				naval_base = 1
+
+			}
+			7480 = {
+				naval_base = 3
+
+			}
+			4464 = {
+				naval_base = 4
+
+			}
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		4464 7480 7668 10352 10380 10520 
+	}
+	manpower=153989
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=7.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=871
+	name="STATE_871"
+	
+	history={
+		owner = SER
+		victory_points = {
+			11887 2 		#Niš
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = YUG
+		add_core_of = SER
+
+	}
+	
+	provinces={
+		630 6634 6998 9602 9756 9906 11887 
+	}
+	manpower=185987
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+	state_category=rural
+}
